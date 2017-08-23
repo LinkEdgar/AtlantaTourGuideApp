@@ -31,6 +31,7 @@
             android:layout_weight="1"
             android:fontFamily="sans-serif"
             android:id="@+id/place_description"
+            android:textColor="@color/lightBackgroundText"
             tools:text="Here we shall place all the neccesary text for the descritption of the place  "
             android:layout_width="match_parent"
             android:layout_height="0dp" />

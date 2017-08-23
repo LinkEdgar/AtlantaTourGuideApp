@@ -37,9 +37,9 @@ public class Restaurants extends Fragment {
         View rootView = inflater.inflate(R.layout.place_list_view,container,false);
         //store the restaurant information in an arraylist
         final ArrayList<Place> restaurants = new ArrayList<>();
-        restaurants.add(new Place(" The Vortex", "Vortex is one of the coolest places in town just makes sure you're 21 and up","11AM-3AM","http://littlefivepoints.net/wp-content/uploads/2010/06/vortex_620x300.jpg","https://www.google.com/maps/search/?api=1&query=the+vortex" ));
-        restaurants.add(new Place("Antico", "This is closest you will get to going to Italy! Treat your taste buds! ", "11AM-10PM","http://spatialdrift.com/wp-content/uploads/2014/02/2014-02-14-13.16.17-689x516.jpg","https://www.google.com/maps/search/?api=1&query=antico+pizza"));
-        restaurants.add(new Place("Sweet Hut","If you're looking to get a delicious beverage and desert this is the place for you! ", "8AM-12AM", "http://spatialdrift.com/wp-content/uploads/2013/07/2013-06-29-14.13.01-1024x664.jpg","https://www.google.com/maps/search/?api=1&query=sweet+hut"));
+        restaurants.add(new Place(" The Vortex", "Vortex is one of the coolest places in town just makes sure you're 21 and up. With two locations in the Atlanta area pick a convenient location close to other attrcations featured on this app.","11AM-3AM","http://littlefivepoints.net/wp-content/uploads/2010/06/vortex_620x300.jpg","https://www.google.com/maps/search/?api=1&query=the+vortex" ));
+        restaurants.add(new Place("Antico", "This is closest you will get to going to Italy! Antico offers an open table environment to eat pizza and have a bear with friends. Come taste a trule authentic Italian pizza today.", "11AM-10PM","http://spatialdrift.com/wp-content/uploads/2014/02/2014-02-14-13.16.17-689x516.jpg","https://www.google.com/maps/search/?api=1&query=antico+pizza"));
+        restaurants.add(new Place("Sweet Hut","If you're looking to get a delicious beverage and desert this is the place for you! Featuring boba drinks of several variety as well as extended hours, you can have a good time with friends or study since they offer free Wifi. ", "8AM-12AM", "http://spatialdrift.com/wp-content/uploads/2013/07/2013-06-29-14.13.01-1024x664.jpg","https://www.google.com/maps/search/?api=1&query=sweet+hut"));
         //restaurants.add("The Pagoda");
 
 

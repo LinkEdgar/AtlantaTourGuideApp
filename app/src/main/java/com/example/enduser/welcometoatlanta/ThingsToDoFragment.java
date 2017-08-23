@@ -33,8 +33,8 @@ public class ThingsToDoFragment extends Fragment {
         // Inflate the layout for this fragment
         View rootView = inflater.inflate(R.layout.place_list_view,container,false);
         final ArrayList<Place> thingsToDO = new ArrayList<>();
-        thingsToDO.add(new Place("Fourth Ward Park","So much to do as this park expands through Atlanta and even includes a skate-park", "8AM-12AM", "http://beltlandia.com/wp-content/uploads/2012/07/Historic-Fourth-Ward-Park-at-night.jpg", "https://www.google.com/maps/search/?api=1&query=fourth+ward+park"));
-        thingsToDO.add(new Place("Atlanta Ferris Wheel","With a location close to Centennial Olypic park you can visit both places for an unforgetable expereince","10AM-12Am", "http://res.cloudinary.com/simpleview/image/upload/w_485,h_300,c_fill/crm/atlanta/J0041036_420c99aa-5056-b3a8-49ff14d8df8d68c0.jpg","https://www.google.com/maps/search/?api=1&query=SkyView"));
+        thingsToDO.add(new Place("Fourth Ward Park","So much to do as this park expands through Atlanta. The park offer splendid sites, a beautiful atmosphere and so much to do. A kids playground, walking trails for your dog and even a skatepark built by Tony Hawk.", "8AM-12AM", "http://beltlandia.com/wp-content/uploads/2012/07/Historic-Fourth-Ward-Park-at-night.jpg", "https://www.google.com/maps/search/?api=1&query=fourth+ward+park"));
+        thingsToDO.add(new Place("Atlanta Ferris Wheel","With a location close to Centennial Olypic park you can visit both places for an unforgetable expereince. Bring a date, your girlfriend, or anyone who generally like to have a good time to the ferris wheel.There are several bundles and offers for the ferris wheel to get discounts.","10AM-12Am", "http://res.cloudinary.com/simpleview/image/upload/w_485,h_300,c_fill/crm/atlanta/J0041036_420c99aa-5056-b3a8-49ff14d8df8d68c0.jpg","https://www.google.com/maps/search/?api=1&query=SkyView"));
         PlaceAdapter thingsToDoAdapter = new PlaceAdapter(getActivity(),thingsToDO);
 
         ListView listView = (ListView) rootView.findViewById(R.id.list_view);
